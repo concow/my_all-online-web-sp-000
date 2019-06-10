@@ -8,8 +8,8 @@ def my_all?(collection)
     i += 1
   end
   if block_return_values.include?(false)            #added an #include? to determine the return value of the #my_all?
-    false                                           #returns false when block condition is met
+    return false                                           #returns false when block condition is met
   else
-    true                                             #returns true when block condition is met
+    return true                                             #returns true when block condition is met
   end
 end
