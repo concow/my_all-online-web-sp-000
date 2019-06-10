@@ -10,6 +10,6 @@ def my_all?(collection)
   if block_return_values.include?(false)            #added an #include? to determine the return value of the #my_all?
     false
   else
-    true
+    true                                             #returns true when block condition is met
   end
 end
